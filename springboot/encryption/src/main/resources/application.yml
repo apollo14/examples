@@ -1,0 +1,12 @@
+name: test
+
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndDES
+    password: secretkey
+
+person:
+    name: test2
+
+encryption:
+    password: ENC(VMAckVUvHhbiEpU1pG4JuFyc3WWR5CJ8FkRTmpcZoow=)
