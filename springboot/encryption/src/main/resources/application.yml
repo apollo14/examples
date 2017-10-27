@@ -9,4 +9,4 @@ person:
     name: test2
 
 encryption:
-    password: ENC(VMAckVUvHhbiEpU1pG4JuFyc3WWR5CJ8FkRTmpcZoow=)
+    p: ENC(VMAckVUvHhbiEpU1pG4JuFyc3WWR5CJ8FkRTmpcZoow=)

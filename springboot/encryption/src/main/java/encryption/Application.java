@@ -7,10 +7,13 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
+
 import encryption.config.EncryptedConfig;
 import encryption.config.PersonConfig;
 
 @SpringBootApplication
+//@EnableEncryptableProperties
 public class Application implements ApplicationRunner {
 
 	@Value("${name}")
@@ -19,10 +22,10 @@ public class Application implements ApplicationRunner {
 	@Autowired
 	private PersonConfig person;
 	
-	//@Autowired
-	//private EncryptedConfig config;
+	@Autowired
+	private EncryptedConfig config;
 	
-	@Value("${encryption.password}")
+	@Value("${encryption.p}")
 	private String password;
 
 	
@@ -35,6 +38,7 @@ public class Application implements ApplicationRunner {
 		System.out.println(name);
 		System.out.println(person.getName());
 		System.out.println(password);
+		System.out.println(config.getPassword());
 		
 	}
 }

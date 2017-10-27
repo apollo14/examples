@@ -1,18 +1,13 @@
 package encryption.config;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+
 import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Value;
-import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
 
-//@Configuration
-//@Component
-//@EnableEncryptableProperties
-//@ConfigurationProperties(prefix="encryption")
+@Component
 public class EncryptedConfig {
 	
-	//@Value("${encryption.password}")
+	@Value("${encryption.p}")
 	private String password;
 
 	public String getPassword() {
