@@ -35,10 +35,10 @@ public class Application implements ApplicationRunner {
 	
 	@Override
 	public void run(ApplicationArguments arg0) throws Exception {
-		System.out.println(name);
-		System.out.println(person.getName());
-		System.out.println(password);
-		System.out.println(config.getPassword());
+		System.out.println("Name from Value: " + name);
+		System.out.println("Name from config: " + person.getName());
+		System.out.println("Password from Value: " + password);
+		System.out.println("Password from config: " + config.getPassword());
 		
 	}
 }
