@@ -13,7 +13,7 @@ import encryption.config.EncryptedConfig;
 import encryption.config.PersonConfig;
 
 @SpringBootApplication
-//@EnableEncryptableProperties
+//@EnableEncryptableProperties 
 public class Application implements ApplicationRunner {
 
 	@Value("${name}")
