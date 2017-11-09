@@ -17,5 +17,6 @@
 	
 	<modules>
 		<module>encryption</module>
+		<module>configuration</module>
 	</modules>
 </project>
