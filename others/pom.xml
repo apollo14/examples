@@ -4,7 +4,11 @@
   <artifactId>others</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
+
   <modules> 
   	<module>classpathfiles</module>
+	<module>threadlocal</module>
+	<module>interview</module>
   </modules>
 </project>

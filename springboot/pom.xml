@@ -18,5 +18,8 @@
 	<modules>
 		<module>encryption</module>
 		<module>configuration</module>
+		<module>configuration-war</module>
+		<module>hierarchy</module>
+		<module>rest-test</module>
 	</modules>
 </project>
