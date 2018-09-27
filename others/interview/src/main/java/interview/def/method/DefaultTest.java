@@ -1,4 +1,4 @@
-package stream.nio;
+package interview.def.method;
 
 public class DefaultTest implements IDefaultTest {
 	@Override
