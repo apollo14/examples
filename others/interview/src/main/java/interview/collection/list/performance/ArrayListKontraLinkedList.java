@@ -1,9 +1,13 @@
-package collection.list.performance;
+package interview.collection.list.performance;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
+/*
+ * Testuje wydajnoœæ ArrayList kontra LinkedList
+ * testAdd 		- dodawanie na koniec listy
+ * testAddOne 	- dodanie jednego elementu w œrodku listy 
+ */
 public class ArrayListKontraLinkedList {
 
 	private List<Integer> al = new ArrayList<Integer>();

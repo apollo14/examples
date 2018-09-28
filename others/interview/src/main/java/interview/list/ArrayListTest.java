@@ -1,7 +1,10 @@
 package interview.list;
 
 import java.util.*;
-
+/*	
+ * Testuje wydajnoœæ ArrayList kontra LinkedList
+ * jeœli AL ma ustawion¹ pocz¹tkow¹ d³ugoœæ wystarczaj¹c¹ do pomieszczenia wszystkich elementów.
+ */
 public class ArrayListTest {
 	private static int SIZE = 100000;
 	private List<Integer> al = new ArrayList<Integer>(SIZE+1000);
