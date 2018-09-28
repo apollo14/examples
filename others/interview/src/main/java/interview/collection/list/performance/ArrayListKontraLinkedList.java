@@ -7,6 +7,7 @@ import java.util.List;
  * Testuje wydajnoœæ ArrayList kontra LinkedList
  * testAdd 		- dodawanie na koniec listy
  * testAddOne 	- dodanie jednego elementu w œrodku listy 
+ * 
  */
 public class ArrayListKontraLinkedList {
 
@@ -34,10 +35,10 @@ public class ArrayListKontraLinkedList {
 	public static void main(String[] args) {
 		ArrayListKontraLinkedList t = new ArrayListKontraLinkedList();
 		// add to the eond of array
-		//t.testAdd();
+		t.testAdd();
 		
 		// add one in the middle
-		t.testAddOne();
+		//t.testAddOne();
 	}
 	
 	private void testAdd() {
