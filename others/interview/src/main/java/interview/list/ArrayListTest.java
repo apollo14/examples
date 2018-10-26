@@ -24,6 +24,7 @@ public class ArrayListTest {
 	}
 	
 	public void test(){
+		
 		long alTime = getTime(al);
 		long llTime = getTime(ll);
 		
