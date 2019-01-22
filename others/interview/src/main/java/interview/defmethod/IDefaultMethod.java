@@ -1,6 +1,6 @@
-package interview.def.method;
+package interview.defmethod;
 
-public interface IDefaultTest {
+public interface IDefaultMethod {
 
 	public default void d1(){
 		System.out.println("Default method d1");
