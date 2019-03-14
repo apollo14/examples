@@ -1,16 +1,17 @@
-package hello;
+package hello2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class Hello2App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(Hello2App.class, args);
 
 		GreetingWebClient gwc = new GreetingWebClient();
+		System.out.println(gwc.getVersion());
 		System.out.println(gwc.getResult());
-		gwc.getResult3().forEach(System.out::println);
+		System.out.println(gwc.getResultH2());
 	}
 }

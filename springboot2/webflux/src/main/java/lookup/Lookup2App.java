@@ -1,16 +1,16 @@
-package hello;
+package lookup;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class Lookup2App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(Lookup2App.class, args);
 
-		GreetingWebClient gwc = new GreetingWebClient();
+		LookupWebClient gwc = new LookupWebClient();
 		System.out.println(gwc.getResult());
-		gwc.getResult3().forEach(System.out::println);
+		System.out.println(gwc.getResult());
 	}
 }

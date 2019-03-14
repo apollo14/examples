@@ -18,5 +18,7 @@
 	
 	<modules>
 		<module>webflux</module>
+		<module>others</module>
+		<module>fx</module>
 	</modules>
 </project>
